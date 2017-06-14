@@ -32,7 +32,7 @@ defmodule APNS.Mixfile do
 
   defp deps do
     [
-      {:poison, "~> 1.5 or ~> 2.1 or ~>3.0"},
+      {:poison, "~> 3.0"},
       {:poolboy, "~> 1.5"},
       {:connection, "~> 1.0.2"},
       {:ex_doc, ">= 0.0.0", only: :dev}
